@@ -1,0 +1,11 @@
+改 history ，然后掉 test_maker 。
+
+rename 是先传入 l,r 表示数字范围 A1.in 改成 B1.out 
+
+传入 ： 1 1 A in B out
+
+cgin 用法是写一个程序，传入 in 然后 out 表示更改后的 in ，然后内部改 l,r ，文件名，程序名（默认 freopen lin ），区间不一定满，可以空。
+
+输入 - 输出 就是按照提示来。
+
+make_stronger_dt 用法：改 random zj bf 然后 dp 传入 l~r 范围，只会返回 in 。

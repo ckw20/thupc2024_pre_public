@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage[UTF8]{ctex}
+\usepackage{graphicx}
+   \title{H. 二进制 题解}                   %———总标题
+   \author{fzw}
+\begin{document}
+   \maketitle                                  % —— 显示标题
+\tableofcontents                               %—— 制作目录(目录是根据标题自动生成的)
+
+\newpage
+
+\section{H. 二进制}                             %——一号子标题  China is in East Asia.
+
+观察到当前过程形如你需要每次维护使得可以查找某些子串出现次数与位置，尝试观察询问，注意到查找子串的长度不会超过 $\log_2 (n)$。
+
+我们对于每个二进制数都维护这个数在原串中的出现位置，注意到当前形如只需要检查原串的长度为 $\log_2(n)$ 的子串。
+
+每次删除后我们需要重新检查删除这一段和前后 $\log_2(n)$ 个元素，每次检查加插入总复杂度为 $\log_2^3(n)$。
+
+注意到，执行删除操作的次数不会超过 $\frac n{\log_2(n)}$ 有总复杂度在 $n\log_2^2(n)$ 级别。
+
+由于常数极小，所以可以直接通过。
+
+\end{document}

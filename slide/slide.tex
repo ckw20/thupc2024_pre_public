@@ -1,0 +1,121 @@
+\documentclass[dvipsnames]{ctexbeamer}
+
+\usepackage{bm}
+\usepackage{mathtools}
+\usepackage{stmaryrd}
+\usepackage{color, xcolor}
+\usepackage{tikz}
+\usepackage{soul}
+\usepackage{cancel}
+
+\usetikzlibrary{arrows, positioning}
+
+\usepackage{fourier}
+\usepackage{nicefrac}
+\usepackage{ulem}
+
+\usepackage[
+    type={CC},
+    modifier={by},
+    version={4.0},
+    % imagemodifier={-80x15},
+    lang={chinese-utf8},
+]{doclicense}
+
+% \usepackage[orientation=landscape,size=custom,width=16,height=9,scale=0.5,debug]{beamerposter}
+
+\newtheorem{remark}[theorem]{注记}
+
+\DeclareMathOperator{\mex}{mex}
+\newcommand{\me}{\mathrm{e}}
+
+\newcommand{\Gname}{三染色}
+\newcommand{\sfT}{\mathsf T}
+
+% \usetheme{Berkeley}
+\usetheme{metropolis}
+% \usecolortheme{spruce}
+\usefonttheme{professionalfonts,structurebold}
+
+\title{THUPC2024 初赛}
+% \subtitle{Selected Topics in Graph Enumeration {\color{red} (draft)}}
+\author{\textsc{Elegia}, \textsc{E\textperiodcentered Space}, \textsc{fzw}, \textsc{Itst}, \textsc{liuzhangfeiabc}, \textsc{SpiritualKhorosho}\textsuperscript{\textdagger}}
+\institute{清华大学算法协会}
+\date{2023 年 12 月 17 日}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\frame{
+    除命题人外, 感谢~ \textsc{He-Ren}, \textsc{Mys.C.K.},\textsc{PinkRabbait} ~等人参与题目准备工作.
+
+    \textsuperscript{\textdagger} 按照字典顺序排列.
+}
+
+% \section[Outline]{}
+\frame[allowframebreaks]{
+    \tableofcontents[sections={1-3}]
+    \framebreak
+    \tableofcontents[sections={4-6}]
+}
+
+\section{Part 0 (出题人 {\itshape liuzhangfeiabc})}
+
+\subsection{M 你说得对，但是 AIGC}
+\include{problems/M}
+
+\section{Part I (出题人 {\itshape Elegia})}
+
+\subsection{C 前缀和}
+\include{problems/C}
+
+\subsection{I 分治乘法}
+\include{problems/I}
+
+\subsection{J 套娃}
+\include{problems/J}
+
+\section{Part II (出题人 {\itshape E.Space})}
+
+\subsection{E 转化}
+\include{problems/E}
+
+\subsection{F 机器人}
+\include{problems/F}
+
+\subsection{G 采矿}
+\include{problems/G}
+
+\section{Part III (出题人 {\itshape fzw})}
+
+\subsection{B 一棵树}
+\include{problems/B}
+
+\subsection{H 二进制}
+\include{problems/H}
+
+\section{Part IV (出题人 {\itshape Itst})}
+
+\subsection{A 排序大师}
+\include{problems/A}
+
+
+\section{Part V (出题人 {\itshape SpiritualKhorosho})}
+
+\subsection{D 多折较差验证}
+\include{problems/D}
+
+\subsection{K 三步棋}
+\include{problems/K}
+
+\subsection{L 勇闯末日塔}
+\include{problems/L}
+
+\begin{frame}{}
+    \begin{center}
+        \Large 感谢倾听!
+    \end{center}
+\end{frame}
+
+\end{document}

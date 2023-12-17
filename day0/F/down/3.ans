@@ -1,0 +1,6 @@
+Robot 0 activates Robot 1.
+Robot 1 swaps a line of command with Robot 2.
+Robot 1 slacks off.
+Robot 2 replaces a line of command of Robot 0.
+Robot 0 slacks off.
+Robot 1 swaps a line of command with Robot 2.

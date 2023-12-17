@@ -1,0 +1,28 @@
+args:
+  n: 1000
+compile:
+  c: -O2 -std=c11
+  cpp: -O2 -std=c++14
+  java: ''
+  pas: -O2
+  py: ''
+data:
+ - cases: [1, 2, 3, 4, 5, 9, 10, 11, 12, 13, 19, 20, 21, 22, 23, 29, 30, 31, 32, 34, 38, 39, 40, 41, 42, 43, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61]
+   score: 100
+folder: problem
+memory limit: 512 MiB
+name: robot
+partial score: false
+pre: []
+samples:
+ - cases: [1,2,3,4,5]
+time limit: 1.0
+title:
+  zh-cn: 机器人
+type: program
+users:
+  esc:
+    std: {expected: "==100", path: "esc/stdwithleaking.cpp"}
+  zyb:
+    std: {expected: "==100", path: "zyb/f.cpp"}
+version: 2

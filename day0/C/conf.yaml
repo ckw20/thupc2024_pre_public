@@ -1,0 +1,28 @@
+args:
+  n: 1000
+compile:
+  c: -O2 -std=c11
+  cpp: -O2 -std=c++14
+  java: ''
+  pas: -O2
+  py: ''
+data:
+  - cases: [1, 2, 3, 4, 5, 6]
+    score: 100
+    chk:
+      chk.cpp
+      testlib.h
+folder: problem
+memory limit: 512 MiB
+name: sum
+partial score: false
+samples:
+  - cases: [1]
+time limit: 1.0
+title:
+  zh-cn: 前缀和
+type: program
+users:
+  ckw:
+    std: {expected: == 100, path: ckw/std.cpp}
+version: 2
